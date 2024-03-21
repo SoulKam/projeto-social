@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+
+        img {
+            width: 100vw;
+        }
+
+        a {
+            display: block;
+            background-color: darkred;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: red;
+        }
+
+        a#gt {
+            background-color: darkblue;
+        }
+
+        a#gt:hover {
+            background-color: blue;
+        }
+
+        a#it {
+            background-image: linear-gradient(to bottom left,  darkblue, rgb(167, 0, 67), rgb(136, 136, 0));
+            
+        }
+
+        a#it:hover {
+            background-image: linear-gradient(to bottom left,  blue, rgb(255, 0, 102), yellow);
+        }
+
+        a#x {
+            background-color: rgb(1, 95, 127);
+        }
+
+        a#x:hover {
+            background-color: rgb(0, 185, 247);
+        }
+
+        a#fb {
+            background-color: darkblue;
+        }
+
+        a#fb:hover {
+            background-color: blue;
+        }
